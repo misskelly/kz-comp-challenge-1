@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*//////////////Header/////////////////*/
+
+header { 
+  display: flex; 
+  background-color: #EE6C4D;
+  height: 10rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav {
+  width: 40%;
+  padding-top: 4rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.user {
+  
+}
+/*//////////////Main/////////////////*/
+/*//////////////Cards/////////////////*/
+/*///////////Media Queries//////////////*/
+
