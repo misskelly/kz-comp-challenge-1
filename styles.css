@@ -1,6 +1,9 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #293241;
+  background: #98C1D9;
 }
 
 /*//////////////Header/////////////////*/
@@ -8,14 +11,15 @@ body {
 header { 
   display: flex; 
   background-color: #EE6C4D;
-  height: 10rem;
+  height: 8rem;
   justify-content: space-between;
   width: 100%;
 }
 
 nav {
   width: 40%;
-  padding-top: 4rem;
+  padding-top: 5rem;
+  margin-left: -1.5rem;
 }
 
 ul {
@@ -28,10 +32,63 @@ li {
   display: inline-block;
 }
 
+.icon {
+  color: #3D5A80;
+}
 .user {
   
 }
 /*//////////////Main/////////////////*/
+
+main {
+  height: 150rem;
+}
+
+h1 {
+  font-family: 'Unlock', cursive;
+  font-size: 4rem;
+  padding-left: 1rem;
+}
+
+.ef-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 20rem;
+}
+
+.card {
+  width: 23%;
+  border: 3px solid Black;
+  overflow: hidden;
+  height: 25rem;
+  margin-bottom: 1rem;
+  background-color: #E0FBFC;
+}
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 30%;
+}
+
+.cover-image {
+  position: absolute;
+  top: -1rem;
+  width: 100%;
+  z-index: 0;
+}
+
+.big-icon {
+  font-size: 3rem;
+  color: #E0FBFC;
+  position: absolute;
+
+  z-index: 10;
+}
+
 /*//////////////Cards/////////////////*/
+
+
 /*///////////Media Queries//////////////*/
 
