@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
   color: #293241;
+  background: url("images/circuitry-background.png");
 }
 
 /*//////////////Header/////////////////*/
@@ -62,7 +63,7 @@ a:hover {
 /*//////////////Main/////////////////*/
 
 main {
-  background: url("images/circuitry-background.png");
+  
 
 }
 
