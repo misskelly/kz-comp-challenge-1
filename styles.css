@@ -9,7 +9,7 @@ body {
 
 header { 
   display: flex; 
-  background-color: #EE6C4D;
+  background-color: #ED7F63;
   height: 7rem;
   justify-content: space-between;
   width: 100%;
@@ -17,7 +17,7 @@ header {
 
 nav {
   width: 40%;
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   margin-left: -1.5rem;
 }
 
@@ -26,6 +26,7 @@ ul {
   justify-content: space-around;
   list-style: none;
 }
+
 
 li {
   display: inline-block;
@@ -36,21 +37,26 @@ li {
 }
 .user {
   font-size: .7rem;
-  padding: .5rem;
+  padding: .7rem;
+}
 
-
+.login {
+  margin: 0 .2rem;
 }
 
 a {
   outline: none;
   text-decoration: none;
   color: #293241;
-  margin: 0 .2rem;
+  transition: background-color .5s;
 }
 
+a:hover {
+  background-color: #FFFFFF; 
+}
 .logo {
-  height: 80px;
-  padding-right: 1rem;
+  height: 70px;
+  margin-right: 1rem;
 
 }
 /*//////////////Main/////////////////*/
@@ -67,7 +73,7 @@ h1 {
   padding: 1rem 0 3rem 1rem;
   margin: 0;
   color: #01161E;
-  text-shadow: 1px 2px 2px #E9D758, 0 0 1rem #297373, 0 0 1rem white;
+  text-shadow: 1px 2px 2px #E9D758, 0 0 1rem #ED7F63, 0 0 1rem white;
 }
 
 h2 {
@@ -80,17 +86,19 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   height: 100%;
+  width: 100%;
 }
 
 .card {
   width: 23%;
+  min-width: 200px;
   border: 1px solid #293241;
   border-radius: 5px;
-  box-shadow:  0px 0px 5px #E0FBFC, inset 0px 0px 2px #EE6C4D;
+  box-shadow:  0px 0px 5px #E0FBFC, inset 0px 0px 3px #ED7F63;
   overflow: hidden;
   height: 25rem;
   margin-bottom: 1rem;
-  background-color: #D4D9DD;
+  background-color: #FFFFFF;
 }
 
 .cover {
@@ -105,6 +113,7 @@ h2 {
   position: absolute;
   top: -1rem;
   width: 100%;
+  max-height: 123px;
   z-index: 0;
 }
 
@@ -113,8 +122,22 @@ img {
   box-shadow: 0px 0px 5px #293241, inset 0px 0px 2px #EE6C4D;
 }
 
-p {
-  z-index: ;
+.level {
+  position: absolute;
+  z-index: 2;
+  right: 1rem;
+  font-size: .7rem;
+  color: #F4FAFF;
+  text-transform: uppercase;
+}
+
+.level-number {
+  position: absolute;
+  z-index: 2;
+  right: 1rem;
+  color: #F4FAFF;
+  font-size: 2rem;
+  line-height: .7rem;
 }
 
 .big-icon {
@@ -123,16 +146,40 @@ p {
   position: absolute;
   z-index: 1;
   padding-left: .5rem;
+  padding-top: .5rem;
 }
 
 .text-container {
-  padding-left: 1rem;
-  line-height: .8;
+  position: relative;
+  padding: 0 1rem;
 }
 
 h3 {
-  margin: .5rem, 0;
-  font-size: 1rem;
+  padding-top: 1rem;
+  margin: 1rem 0 .2rem 0;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.link,
+.wm-detail {
+  font-size: .7rem;
+}
+
+.link {
+  background-color: #EAEAEA;
+  padding: .3rem 1rem;
+}
+
+.learn {
+  margin-top: .5rem;
+}
+
+.num {
+  font-size: 2rem;
+  color: #ED7F63;
+  margin: 0;
 }
 
 /*//////////////Cards/////////////////*/
